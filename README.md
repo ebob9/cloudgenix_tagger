@@ -5,13 +5,17 @@ CloudGenix Tagger
 Utility to manage tags across a large number of CloudGenix sites, elements, interfaces, and Circuit Catagories.
 
 #### Features
-TBD
+Add, remove, or simulate (add/remove) of tags over a large number of objects!
+* Supports regex matching of any key/value in CloudGenix config objects for tag action (add/remove)
+* For interfaces, supports hierarchical matching of any key/value on site, element, and interface objects for tag action (add/remove) 
 
 #### Requirements
 * Active CloudGenix Account
 * Python >= 2.7 or >=3.6
 * Python modules:
     * CloudGenix Python SDK >= 5.1.1b1 - <https://github.com/CloudGenix/sdk-python>
+    * ProgresBar2 >= 3.34.3 - <https://github.com/WoLpH/python-progressbar>
+    * Tabulate >= 0.8.3 - <https://bitbucket.org/astanin/python-tabulate>
 
 #### License
 MIT
